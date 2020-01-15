@@ -29,7 +29,7 @@ sudo apt-get update
 sudo shutdown -r now
 --------------------
 
-sudo apt-get update 
+sudo apt-get update  
 
 sudo apt-get install git
 
@@ -63,13 +63,16 @@ sudo apt-get install libglu1-mesa-dev
 
 sudo apt-get install libglu1-mesa
 
-sudo apt-get install libglew1.13 
+[sudo apt-get install libglew1.13](https://otland.net/threads/debian-installing-library-to-compile-otclient-failed.253692/9
 
 sudo apt-get install libgl1-mesa-dev
 
 sudo apt-get install libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev texinfo wget zlib1g-dev
 
-sudo apt-get install libjpeg8-dPascalev libtiff5-dev libjasper-dev libpng12-dev 
+sudo apt-get install libjpeg8-dPascalev libtiff5-dev libjasper-dev libpng12-dev
+
+
+* [](https://github.com/DIYBookScanner/spreads/issues/180)
 
 sudo apt-get install libavcodec-dev 
 
@@ -181,6 +184,8 @@ Check recommended driver
 ---------------
 
 ubuntu-drivers devices | grep recommended
+
+[a](https://askubuntu.com/questions/1128911/ubuntu-drivers-devices-always-returns-nothing-in-ubuntu-on-windows-windows-su)
 
 should give an output like: 
 "driver   : nvidia-3xx - third-party non-free recommended"
