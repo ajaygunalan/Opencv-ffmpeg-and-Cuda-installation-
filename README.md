@@ -451,6 +451,11 @@ make: *** [all] Error 2
 
 ```
 
+Reference:
+
+1. [better](https://stackoverflow.com/questions/52353883/opencv-installation-error-no-such-file-or-directory-pyopencv-generated-include)
+2. [solved it](https://askubuntu.com/questions/1052322/python3-5-dev-in-ubuntu-18-04)
+
 
 Copy and paste this code
 --------------------------------
