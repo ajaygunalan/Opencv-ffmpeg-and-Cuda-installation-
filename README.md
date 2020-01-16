@@ -427,6 +427,31 @@ take a look at this link ==> https://stackoverflow.com/questions/46584000/cmake-
 
 ------------If there is an error regarding (error: ‘CODEC_FLAG_GLOBAL_HEADER’ and error: ‘AVFMT_RAWPICTURE’)---
 
+
+```
+[ 85%] Building CXX object modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2.cpp.o
+/home/ajay/opencv/modules/python/src2/cv2.cpp:17:10: fatal error: Python.h: No such file or directory
+ #include <Python.h>
+          ^~~~~~~~~~
+compilation terminated.
+modules/python3/CMakeFiles/opencv_python3.dir/build.make:62: recipe for target 'modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2.cpp.o' failed
+make[2]: *** [modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2.cpp.o] Error 1
+CMakeFiles/Makefile2:19088: recipe for target 'modules/python3/CMakeFiles/opencv_python3.dir/all' failed
+make[1]: *** [modules/python3/CMakeFiles/opencv_python3.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 85%] Building CXX object modules/superres/CMakeFiles/opencv_perf_superres.dir/perf/perf_superres.cpp.o
+[ 85%] Linking CXX executable ../../bin/opencv_test_superres
+[ 85%] Built target opencv_test_superres
+[ 85%] Linking CXX executable ../../bin/opencv_perf_stereo
+[ 85%] Built target opencv_perf_stereo
+[ 85%] Linking CXX executable ../../bin/opencv_perf_superres
+[ 85%] Built target opencv_perf_superres
+Makefile:162: recipe for target 'all' failed
+make: *** [all] Error 2
+
+```
+
+
 Copy and paste this code
 --------------------------------
 `
